@@ -7,12 +7,12 @@ body {
 
 /* banner */
 .banner {
-    margin: 50px 140px;
+    margin: 80px 140px;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
-
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -24,7 +24,7 @@ body {
     margin: 0px;
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
+    font-family:  'Merriweather';
     font-size: 32px;
     font-weight: 400;
 
@@ -35,13 +35,15 @@ body {
     margin: 0px;
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
+    font-family:  'Merriweather';
     font-size: 72px;
     font-weight: 900;
 }
 
 /* 65% off */
-.off {}
+.off {
+    margin: 100px 140px;
+}
 
 .off-container {
     text-align: center;
@@ -51,7 +53,7 @@ body {
 .offer {
     margin: 0px;
     color: #F00;
-    font-family: Merriweather;
+    font-family: 'inter';
     font-size: 88px;
     font-weight: 700;
 
@@ -60,7 +62,7 @@ body {
 .deal {
     margin: 50px 0px 12px 0px;
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
 }
@@ -68,29 +70,30 @@ body {
 .category {
     margin: 0;
     color: #070211;
-    font-family: Inter;
+    font-family: 'Merriweather';
     font-size: 48px;
     font-weight: 700;
 }
 
 /* welcome */
 .welcome {
-    margin: 50px 140px;
+    margin: 100px 140px;
     display: flex;
-    width: 1320px;
+    width: 1320px;  
     height: 600px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
 }
 
 .welcome-content {
     padding: 130px 30px 20px 120px;
-    width: 60%;
+    width: 770px;
 }
 
 .welcome-title {
     margin: 0;
     color: #FFF;
-    font-family: Merriweather;
+    font-family:  'Merriweather';
     font-size: 64px;
     font-weight: 900;
     letter-spacing: 7.04px;
@@ -99,18 +102,17 @@ body {
 .welcome-desc {
     margin: 40px 0px;
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
 }
 
 .welcome-content button {
     color: #FFF;
     text-align: center;
-    /* font-family: Inter; */
+    font-family: 'Inter';
     font-size: 20px;
     text-transform: uppercase;
     background: none;
@@ -118,18 +120,17 @@ body {
 }
 
 .welcome img {
-    height: 70%;
-    padding: 80px 20px;
+    height: 440px;
+    padding: 90px 0px;
 }
 
 /* place */
 
 .Places {
-    margin: 50px 140px;
-    width: 1320px;
+    margin: 100px 140px;
+    width: 1120px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
     text-align: center;
     padding: 100px;
 }
@@ -137,7 +138,7 @@ body {
 .place-title {
     margin: 24px;
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 42px;
     font-weight: 600;
 
@@ -154,7 +155,7 @@ body {
     border-radius: 8px;
     background: #F00;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 25px;
     font-weight: 700;
 
@@ -163,18 +164,16 @@ body {
 /* coming soon */
 
 .coming {
-    margin: 50px 140px;
-    width: 1420px;
-    /* height: 482px; */
+    margin: 100px 140px;
+    width: 1320px;
+    height: 482px;
     display: flex;
     
 }
 
 .coming-content {
-
     width: 33%;
     height: auto;
-    
 }
 
 .coming-content .round-img {
@@ -189,7 +188,7 @@ body {
     padding: 60px 0 18px 0;
     margin: 0;
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -200,31 +199,27 @@ body {
     margin: 0 0 18px 0;
     padding: 0;
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
 }
 
 .coming-desc {
-    margin: 0;
     padding: 0 60px 0 0;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
 
 
 .coming-title2024 {
-    padding: 100px 0 0 80px;
+    padding: 80px 0 0 120px;
     margin: 0;
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 58px;
     font-style: normal;
     font-weight: 700;
@@ -232,35 +227,33 @@ body {
 }
 
 .coming-desc2 {
-    padding: 30px 0 30px 80px;
-    margin: 0;
+    padding: 30px 0 0px 120px;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
 
 .coming-content .happy-new-year-img {
-    padding: 10px 0 30px 80px;
-    margin: 0;
+    padding: 0px 0 30px 120px;
 }
 
 /* holyday */
 
-.holyday {}
+.holyday {
+    margin: 100px 140px;
+}
 
 .holy-content1 {
     text-align: center;
-
 }
 
 .holy-content1 h3 {
     margin: 0;
     padding: 0;
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
 }
@@ -269,23 +262,25 @@ body {
     margin: 30px 0;
     padding: 0;
     color: #F00;
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 72px;
     font-weight: 900;
+}
+.holy-content1 span{
+    color: #070211;
 }
 
 .holy-desc {
     margin: 0;
     padding: 0;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
 }
 
 .holy-content2{
-    /* position: relative; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -294,53 +289,47 @@ body {
     background-position: top right, bottom right;
     
 
-}
+}   
+
 .holy-content2 .img2{
-    
-}
-.holy-content2 .img2{
-    padding: 0 20px 200px 0;
+    padding: 0 200px 200px 0;
 
 }
 
 /* portfolio */
 .portfolio{
-
+    margin-top: 100px  0;
+    display: block;
+    margin: 60px 130px;
 }
-.portfolio h4{
+
+.portfolio-content1 h4{
+    margin: 0;
     color: #F00;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
+    font-family: 'Inter';
+    font-size: 25px;
     font-weight: 500;
-    line-height: normal;
 }
 
-.portfolio-content1{
-    
-}
 
 .portfolio-title{
+    margin: 20px 0;
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
 }
 
 .portfolio-desc{
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px; 
 }
 
 .portfolio-content2{
-    display: inline-table;
+    display: block;
 }
 
 .portfolio-content2 img{
@@ -348,14 +337,11 @@ body {
     padding: 0;
 }
 
-.portfolio-content2 img :hover{
-    border: 2px solid red;
-}
 
 /* subscribe */
 
 .subscribe {
-    margin: 50px 140px;
+    margin: 100px 140px;
     width: 1320px;
     height: 482px;
     border-radius: 16px;
@@ -365,14 +351,14 @@ body {
 }
 
 .subscribe img {
-    height: 150px;
+    height: 160px;
     margin: 0px;
 }
 
 .subscribe-title {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 48px;
     font-weight: 900;
 }
@@ -381,7 +367,7 @@ body {
     margin: 0 0 40px 0;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -398,7 +384,7 @@ body {
 .subscribe-form input[type="email"] {
     background: #FFF;
     width: 450px;
-    height: 72px;
+    height: 82px;
     border: none;
     outline: none;
     padding: 0 25px;
@@ -410,7 +396,7 @@ body {
     left: -5px;
     border-radius: 0 25px 25px 0;
     width: 200px;
-    height: 72px;
+    height: 82px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -421,27 +407,30 @@ body {
 
 /* footer-aria */
 footer {
+    margin-top: 120px;
     width: 1600px;
-    padding: 160px 130px;
+    height: auto;
     display: block;
     background: #070211;
 }
 
 footer hr {
+    width: 1320px;
     border: none;
-    height: 0.5px;
-    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    background: rgba(76, 69, 69, 0.15);
 }
 
-.footer-content {
+.footer-content1 {
+    padding: 80px 250px 20px 130px; 
     display: flex;
-    align-items: center;
     justify-content: space-between;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    line-height: 40px;
 }
+
 
 .footer-content-image {
     padding: 40px 0px;
@@ -453,4 +442,18 @@ footer hr {
 .footer-content-image a {
     margin-right: 24px;
 }
+
+.footer-content2 {
+    padding: 20px 130px 80px 130px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
 
