@@ -291,9 +291,11 @@ body {
 
 }   
 
+.holy-content2 .img1{
+    height: 660px;
+}
 .holy-content2 .img2{
-    padding: 0 200px 200px 0;
-
+    margin: 0 310px 200px 0;
 }
 
 /* portfolio */
